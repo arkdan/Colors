@@ -2,7 +2,7 @@
 
 • `ColorPalette` is a protocol with few requirements, and several extensions - providing pretty rich functionality; and, perhaps, ability to add / extend features when needs come
 
-• right now, the only palette available is `CrayonsPalette`, with actual colors copied from Crayons.
+• right now, the only palette available is `CrayonsPalette`, with actual colors copied from Crayons. ![image](https://cloud.githubusercontent.com/assets/3935023/25092732/a38421ea-2397-11e7-8d3d-662f46013045.png)
 
 • defines the colors by `Flavors`: `metal`, `dark`, `bright`, `warm`, `cool`, `greenish`, `yellowish`, `reddish`, `pink_ish`, `blueish`
 
