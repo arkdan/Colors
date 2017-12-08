@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import ARKExtensions
+import UIKitExtensions
 
 public protocol ColorPalette {
     var hex: Int { get }

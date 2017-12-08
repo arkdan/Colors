@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import ARKExtensions
+import Extensions
 
 public enum CrayonsPalette : Int, Enumerable, ColorPalette {
 

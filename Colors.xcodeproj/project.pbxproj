@@ -7,16 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		047D599D1FDAA4F700BDAC09 /* Extensions.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 047D599C1FDAA4F700BDAC09 /* Extensions.framework */; };
 		04C187D91EA2D73300DE1A65 /* Colors.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04C187CF1EA2D73200DE1A65 /* Colors.framework */; };
 		04C187DE1EA2D73300DE1A65 /* ColorsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C187DD1EA2D73300DE1A65 /* ColorsTests.swift */; };
 		04C187E01EA2D73300DE1A65 /* Colors.h in Headers */ = {isa = PBXBuildFile; fileRef = 04C187D21EA2D73200DE1A65 /* Colors.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		04C187EB1EA2D8B300DE1A65 /* ColorPalette.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C187E91EA2D8B300DE1A65 /* ColorPalette.swift */; };
 		04C187EC1EA2D8B300DE1A65 /* CrayonsPalette.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C187EA1EA2D8B300DE1A65 /* CrayonsPalette.swift */; };
-		04C187EE1EA2DC3400DE1A65 /* ARKExtensions.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04C187ED1EA2DC3400DE1A65 /* ARKExtensions.framework */; };
 		04C187F01EA2DF8C00DE1A65 /* PaletteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C187EF1EA2DF8C00DE1A65 /* PaletteTests.swift */; };
 		04C187F21EA2DFE100DE1A65 /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04C187F11EA2DFE100DE1A65 /* Nimble.framework */; };
 		04DFE9D51EA2E1A100A6514F /* Nimble.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 04C187F11EA2DFE100DE1A65 /* Nimble.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		04DFE9EF1EA5015700A6514F /* ARKExtensions.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 04C187ED1EA2DC3400DE1A65 /* ARKExtensions.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +35,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				04DFE9EF1EA5015700A6514F /* ARKExtensions.framework in CopyFiles */,
 				04DFE9D51EA2E1A100A6514F /* Nimble.framework in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -53,6 +51,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		047D599C1FDAA4F700BDAC09 /* Extensions.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Extensions.framework; path = Carthage/Build/iOS/Extensions.framework; sourceTree = SOURCE_ROOT; };
 		04C187CF1EA2D73200DE1A65 /* Colors.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Colors.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		04C187D21EA2D73200DE1A65 /* Colors.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Colors.h; sourceTree = "<group>"; };
 		04C187D31EA2D73200DE1A65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -61,7 +60,6 @@
 		04C187DF1EA2D73300DE1A65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04C187E91EA2D8B300DE1A65 /* ColorPalette.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorPalette.swift; sourceTree = "<group>"; };
 		04C187EA1EA2D8B300DE1A65 /* CrayonsPalette.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CrayonsPalette.swift; sourceTree = "<group>"; };
-		04C187ED1EA2DC3400DE1A65 /* ARKExtensions.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ARKExtensions.framework; path = Carthage/Build/iOS/ARKExtensions.framework; sourceTree = SOURCE_ROOT; };
 		04C187EF1EA2DF8C00DE1A65 /* PaletteTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaletteTests.swift; sourceTree = "<group>"; };
 		04C187F11EA2DFE100DE1A65 /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Nimble.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -71,7 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04C187EE1EA2DC3400DE1A65 /* ARKExtensions.framework in Frameworks */,
+				047D599D1FDAA4F700BDAC09 /* Extensions.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -108,7 +106,7 @@
 		04C187D11EA2D73200DE1A65 /* Colors */ = {
 			isa = PBXGroup;
 			children = (
-				04C187ED1EA2DC3400DE1A65 /* ARKExtensions.framework */,
+				047D599C1FDAA4F700BDAC09 /* Extensions.framework */,
 				04C187D21EA2D73200DE1A65 /* Colors.h */,
 				04C187E91EA2D8B300DE1A65 /* ColorPalette.swift */,
 				04C187EA1EA2D8B300DE1A65 /* CrayonsPalette.swift */,
